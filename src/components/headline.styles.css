@@ -1,0 +1,23 @@
+.thelogo {
+	width: 610.75px;
+	height: 540.3px;
+	position: absolute;
+	width: 569px;
+	height: 513px;
+	top: 302px;
+	right: 579px;
+	left: 579px;
+	bottom: 1500px;
+}
+.button {
+	color: #000;
+	font-family: Istok Web;
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	position: relative;
+
+	left: 700px;
+	bottom: 450px;
+}
