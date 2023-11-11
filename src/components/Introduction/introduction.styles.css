@@ -1,0 +1,47 @@
+/* The googl font family zen dots for the h1 tag */
+@import url("https://fonts.googleapis.com/css2?family=Bigelow+Rules&family=Edu+TAS+Beginner&family=Open+Sans:wght@300&family=Roboto:wght@100&family=Zen+Dots&display=swap");
+
+/* The css that affects the white lines that holds company slogan */
+.box {
+	height: 1px;
+	width: 390px;
+}
+
+.box .line {
+	height: 13px;
+	left: 0;
+	position: absolute;
+	top: 710px;
+	width: 398px;
+}
+
+.box .linetwo {
+	height: 13px;
+	left: 0;
+	position: absolute;
+	top: 600px;
+	width: 398px;
+}
+
+/* This is the css that will place the h1 inbetween the two white lines and asign font */
+
+/* The top .p1 controls the text lineup */
+.p1 {
+	height: 220px;
+	width: 300px;
+}
+
+/* This controls the color of the comapny slogan and positioning */
+.p1 {
+	font-family: "Zen Dots", sans-serif;
+	fill: #000000;
+	-webkit-text-stroke: 1px #fefffd;
+	font-size: 30px;
+	font-weight: 300;
+	left: 0;
+	letter-spacing: 0;
+	line-height: normal;
+	position: fixed;
+	text-align: center;
+	top: 480px;
+}
