@@ -62,6 +62,28 @@
 @media screen and (max-width: 1280px) {
 	.btn {
 		position: relative !important;
+		top: -400px;
+		width: 20% !important;
+		align-self: center !important;
+		align-content: center !important;
+		object-fit: scale-down !important;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.lgo {
+		height: 100% !important;
+		width: 100% !important;
+		top: -200px;
+		align-self: center !important;
+		align-content: center !important;
+		object-fit: scale-down !important;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.btn {
+		position: relative !important;
 		top: -300px;
 		width: 20% !important;
 		align-self: center !important;
@@ -71,7 +93,7 @@
 }
 
 /* Nest Hub */
-@media screen and (min-width: 912px) and (max-width: 1024px) {
+@media screen and (max-width: 920px) {
 	.lgo {
 		height: 100%;
 		width: auto;
@@ -82,10 +104,12 @@
 	}
 }
 
-@media screen and (min-width: 912px) and (max-width: 1024px) {
+@media screen and (max-width: 920px) {
 	.btn {
 		position: relative !important;
 		top: -300px;
+		width: -150px !important;
+		font-size: medium !important;
 		align-self: center !important;
 		align-content: center !important;
 		object-fit: scale-down !important;
@@ -93,7 +117,7 @@
 }
 
 /* Samsung A51/71 & samsung ultra  */
-@media screen and (max-width: 412px) {
+@media screen and (min-width: 401px) and (max-width: 414px) {
 	.lgo {
 		top: 50px !important;
 		height: 50% !important;
@@ -104,40 +128,13 @@
 	}
 }
 
-@media screen and (max-width: 412px) {
+@media screen and (min-width: 411px) and (max-width: 412px) {
 	.btn {
 		position: relative !important;
-		width: 45% !important;
+		margin-top: 100px;
+		width: 150px !important;
 		height: 25% !important;
 		font-size: medium !important;
-		top: -100px;
-		align-self: center !important;
-		align-content: center !important;
-		object-fit: scale-down !important;
-	}
-}
-
-/* Galaxy Z fold  */
-
-@media screen and (max-width: 280px) {
-	.lgo {
-		position: absolute !important;
-		padding-top: -10px;
-		height: 75% !important;
-		width: auto;
-		align-self: center;
-		align-content: center !important;
-		object-fit: scale-down !important;
-	}
-}
-
-@media screen and (max-width: 280px) {
-	.btn {
-		position: relative !important;
-		width: 50% !important;
-		height: 70% !important;
-		font-size: small !important;
-		top: -84px;
 		align-self: center !important;
 		align-content: center !important;
 		object-fit: scale-down !important;
@@ -145,7 +142,7 @@
 }
 
 /* Surfacce duo */
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 550px) {
 	.lgo {
 		top: -80px !important;
 		height: 100% !important;
@@ -156,9 +153,13 @@
 	}
 }
 
-@media screen and(max-width: 540px) {
+@media screen and (max-width: 550px) {
 	.btn {
-		top: -200px !important;
+		position: relative !important;
+		width: 30% !important;
+		height: 70% !important;
+		font-size: small !important;
+		top: -160px !important;
 		align-self: center !important;
 		align-content: center !important;
 		object-fit: scale-down !important;
@@ -173,5 +174,229 @@
 		align-self: center !important;
 		align-content: center !important;
 		object-fit: scale-down !important;
+	}
+}
+
+@media screen and (min-width: 280px) and (max-width: 285px) {
+	.lgo {
+		position: absolute !important;
+		height: 75% !important;
+		top: -50px !important;
+		width: auto;
+		align-self: center;
+		align-content: center !important;
+		object-fit: scale-down !important;
+	}
+}
+
+@media screen and (min-width: 280px) and (max-width: 285px) {
+	.btn {
+		position: relative;
+		width: 150px !important;
+		height: 100% !important;
+		position: relative !important;
+		font-size: small !important;
+		top: -150px !important;
+		align-self: center !important;
+		align-content: center !important;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.lgo {
+		position: absolute !important;
+		height: 75% !important;
+		top: -50px !important;
+		width: auto;
+		align-self: center;
+		align-content: center !important;
+		object-fit: scale-down !important;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.btn {
+		position: relative;
+		width: 150px !important;
+		height: 100% !important;
+		position: relative !important;
+		font-size: small !important;
+		top: -200px;
+		align-self: center !important;
+		align-content: center !important;
+	}
+}
+
+@media screen and (max-width: 370px) {
+	.lgo {
+		position: absolute !important;
+		height: 75% !important;
+		top: -50px !important;
+		width: auto;
+		align-self: center;
+		align-content: center !important;
+		object-fit: scale-down !important;
+	}
+}
+
+@media screen and (max-width: 370px) {
+	.btn {
+		position: relative;
+		width: 150px !important;
+		height: 100% !important;
+		position: relative !important;
+		font-size: small !important;
+		top: -125px;
+		align-self: center !important;
+		align-content: center !important;
+	}
+}
+
+@media screen and (max-width: 390px) {
+	.lgo {
+		position: absolute !important;
+		height: 75% !important;
+		top: -50px !important;
+		width: auto;
+		align-self: center;
+		align-content: center !important;
+		object-fit: scale-down !important;
+	}
+}
+
+@media screen and (max-width: 390px) {
+	.btn {
+		position: relative;
+		width: 150px !important;
+		height: 100% !important;
+		position: relative !important;
+		font-size: small !important;
+		top: -130px;
+		align-self: center !important;
+		align-content: center !important;
+	}
+}
+
+@media screen and (max-width: 365px) {
+	.lgo {
+		position: absolute !important;
+		height: 75% !important;
+		top: -50px !important;
+		width: auto;
+		align-self: center;
+		align-content: center !important;
+		object-fit: scale-down !important;
+	}
+}
+
+@media screen and (max-width: 365px) {
+	.btn {
+		position: relative;
+		width: 150px !important;
+		height: 100% !important;
+		position: relative !important;
+		font-size: small !important;
+		margin-top: 100px !important;
+		align-self: center !important;
+		align-content: center !important;
+	}
+}
+
+@media screen and (min-width: 429px) and (max-width: 430px) {
+	.lgo {
+		position: absolute !important;
+		height: 75% !important;
+		top: -50px !important;
+		width: auto;
+		align-self: center;
+		align-content: center !important;
+		object-fit: scale-down !important;
+	}
+}
+
+@media screen and (min-width: 429px) and (max-width: 430px) {
+	.btn {
+		position: relative;
+		width: 150px !important;
+		height: 100% !important;
+		position: relative !important;
+		font-size: small !important;
+		margin-top: 100px !important;
+		align-self: center !important;
+		align-content: center !important;
+	}
+}
+
+@media screen and (min-width: 389px) and (max-width: 390px) {
+	.lgo {
+		position: absolute !important;
+		height: 75% !important;
+		top: -50px !important;
+		width: auto;
+		align-self: center;
+		align-content: center !important;
+		object-fit: scale-down !important;
+	}
+}
+
+@media screen and (min-width: 389px) and (max-width: 390px) {
+	.btn {
+		position: relative;
+		width: 150px !important;
+		height: 100% !important;
+		position: relative !important;
+		font-size: small !important;
+		margin-top: 100px !important;
+		align-self: center !important;
+		align-content: center !important;
+	}
+}
+
+@media screen and (min-width: 413px) and (max-width: 414px) {
+	.lgo {
+		position: absolute !important;
+		height: 75% !important;
+		top: -50px !important;
+		width: auto;
+		align-self: center;
+		align-content: center !important;
+		object-fit: scale-down !important;
+	}
+}
+
+@media screen and (min-width: 413px) and (max-width: 414px) {
+	.btn {
+		position: relative;
+		width: 150px !important;
+		height: 100% !important;
+		position: relative !important;
+		font-size: small !important;
+		margin-top: 100px !important;
+		align-self: center !important;
+		align-content: center !important;
+	}
+}
+
+@media screen and (min-width: 370px) and (max-width: 375px) {
+	.lgo {
+		position: absolute !important;
+		height: 75% !important;
+		top: -50px !important;
+		width: auto;
+		align-self: center;
+		align-content: center !important;
+		object-fit: scale-down !important;
+	}
+}
+
+@media screen and (min-width: 370px) and (max-width: 378px) {
+	.btn {
+		position: relative !important;
+		margin-top: 100px;
+		width: 150px !important;
+		height: 100% !important;
+		font-size: small !important;
+		align-self: center !important;
+		align-content: center !important;
 	}
 }
