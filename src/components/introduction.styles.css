@@ -4,7 +4,6 @@
 	flex-direction: row;
 	justify-content: center;
 	width: 100%;
-	height: 100%;
 }
 
 .body {
@@ -61,12 +60,16 @@
 			top: 20px;
 			justify-content: center;
 			align-self: center;
-			left: 175px;
+			left: 370px;
+			padding-right: 5px;
+			padding-left: 5px;
+			padding-top: 40px;
+			padding-bottom: 5px;
 			color: #000;
 			text-align: center;
 			font-family: Zen Dots;
 			text-shadow: 3px 3px white;
-			font-size: 70px;
+			font-size: 40px;
 			font-style: normal;
 			font-weight: 400;
 			line-height: normal;
@@ -78,14 +81,14 @@
 	.line {
 		position: absolute;
 		width: 1282px !important;
-		.line2 {
+		.line-2 {
 			position: absolute;
 			width: 1282px !important;
 		}
 	}
 }
 
-/* Nest Hub */
+/* Nest Hub
 @media screen and (max-width: 1026px) {
 	.body {
 		position: relative;
@@ -140,7 +143,7 @@
 	}
 }
 
-/* samsung A51/71 */
+/* samsung A51/71 
 @media screen and (min-width: 411px) and (max-width: 413px) {
 	.line {
 		position: absolute;
@@ -163,7 +166,7 @@
 			text-align: center;
 			font-family: Zen Dots;
 			text-shadow: 3px 3px white;
-			font-size: 30px;
+			font-size: 45px;
 			font-style: normal;
 			font-weight: 400;
 			line-height: normal;
@@ -176,4 +179,4 @@
 			width: 416px !important;
 		}
 	}
-}
+} */
