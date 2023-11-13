@@ -1,8 +1,14 @@
+* {
+	box-sizing: border-box;
+}
+
 .body {
 	background-color: transparent;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
+	position: absolute;
+	top: 110%;
 	width: 100%;
 }
 
@@ -11,21 +17,21 @@
 }
 .body .line {
 	background-image: url(./line1.jpg);
-	height: 13px;
-	left: -4px;
+	height: 1%;
+	left: 0%;
 	position: absolute;
-	top: -5px;
-	width: 1900px;
+	top: 0%;
+	width: 100%;
 	box-shadow: 4px 8px 8px 8px rgba(0, 0, 0, 0.25);
 }
 
 .body .line-2 {
 	background-image: url(./line1.jpg);
-	height: 13px;
-	left: -4px;
+	height: 1%;
+	left: 0%;
 	position: absolute;
-	top: 200px;
-	width: 1900px;
+	top: 15%;
+	width: 100%;
 	box-shadow: 4px 8px 8px 8px rgba(0, 0, 0, 0.25);
 }
 .label {
@@ -36,147 +42,30 @@
 
 .heading {
 	position: absolute;
-	top: 30px;
+	top: 5%;
+	right: 25%;
 	justify-content: center;
 	align-self: center;
-	left: 480px;
+	margin: auto;
 	color: #000;
 	text-align: center;
 	font-family: Zen Dots;
 	text-shadow: 3px 3px white;
-	font-size: 70px;
+	font-size: 400%;
 	font-style: normal;
 	font-weight: 400;
 	line-height: normal;
+	width: 50%;
 }
 
-/* Nest Hub Max */
-@media screen and (max-width: 1280px) {
+@media screen and (min-width: 445px) and (max-width: 450px) {
 	.body {
-		position: relative;
-		top: -110px;
+		position: absolute;
+		top: 35%;
 		.heading {
+			font-size: 150%;
 			position: absolute;
-			top: 20px;
-			justify-content: center;
-			align-self: center;
-			left: 370px;
-			padding-right: 5px;
-			padding-left: 5px;
-			padding-top: 40px;
-			padding-bottom: 5px;
-			color: #000;
-			text-align: center;
-			font-family: Zen Dots;
-			text-shadow: 3px 3px white;
-			font-size: 40px;
-			font-style: normal;
-			font-weight: 400;
-			line-height: normal;
+			top: 3%;
 		}
 	}
 }
-
-@media screen and (max-width: 1280px) {
-	.line {
-		position: absolute;
-		width: 1282px !important;
-		.line-2 {
-			position: absolute;
-			width: 1282px !important;
-		}
-	}
-}
-
-/* Nest Hub
-@media screen and (max-width: 1026px) {
-	.body {
-		position: relative;
-		top: -110px;
-		.heading {
-			position: absolute;
-			top: 20px;
-			justify-content: center;
-			align-self: center;
-			left: 175px;
-			color: #000;
-			text-align: center;
-			font-family: Zen Dots;
-			text-shadow: 3px 3px white;
-			font-size: 70px;
-			font-style: normal;
-			font-weight: 400;
-			line-height: normal;
-		}
-	}
-}
-
-@media screen and (min-width: 1023px) and (max-width: 1026px) {
-	.line {
-		position: absolute;
-		width: 1026px !important;
-	}
-}
-
-@media screen and (min-width: 1023px) and (max-width: 1026px) {
-	.heading {
-		position: absolute;
-		top: 20px !important;
-		justify-content: center;
-		align-self: center;
-		left: 65px !important;
-		color: #000;
-		text-align: center;
-		font-family: Zen Dots;
-		text-shadow: 3px 3px white;
-		font-size: 70px;
-		font-style: normal;
-		font-weight: 400;
-		line-height: normal;
-	}
-}
-
-@media screen and (min-width: 1023px) and (max-width: 1026px) {
-	.line-2 {
-		position: absolute;
-		width: 1026px !important;
-	}
-}
-
-/* samsung A51/71 
-@media screen and (min-width: 411px) and (max-width: 413px) {
-	.line {
-		position: absolute;
-		width: 416px !important;
-	}
-}
-
-@media screen and (min-width: 411px) and (max-width: 413px) {
-	.body {
-		position: relative;
-		top: -130px;
-		.heading {
-			position: absolute;
-			top: 20px !important;
-			padding: 5px;
-			justify-content: center;
-			align-self: center;
-			left: 10px !important;
-			color: #000;
-			text-align: center;
-			font-family: Zen Dots;
-			text-shadow: 3px 3px white;
-			font-size: 45px;
-			font-style: normal;
-			font-weight: 400;
-			line-height: normal;
-		}
-	}
-
-	@media screen and (min-width: 411px) and (max-width: 413px) {
-		.line-2 {
-			position: absolute;
-			width: 416px !important;
-		}
-	}
-} */
