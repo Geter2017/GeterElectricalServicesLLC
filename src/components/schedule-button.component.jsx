@@ -1,9 +1,9 @@
-import React from "react";
-import "./headline.styles.css";
+import { React } from "react";
+import "./schedule-button.styles.css";
 
-export default function Headline() {
+export default function scheduleButton() {
 	return (
-		<div className="container">
+		<div className="button-container">
 			<button
 				className="btn"
 				style={{

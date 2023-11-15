@@ -1,6 +1,6 @@
 /* controls the size and length of the gray background image */
 
-.container {
+.button-container {
 	display: flex;
 }
 /* .cover {
