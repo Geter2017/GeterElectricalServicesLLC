@@ -7,7 +7,7 @@ export default function Invite() {
 			<div className="cover">
 				<img
 					style={{ width: "100%", height: "100%", position: "relative" }}
-					src="thebody.jpg"
+					src="webbody.jpg"
 					alt="Head"
 				/>
 			</div>

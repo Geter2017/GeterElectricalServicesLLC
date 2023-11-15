@@ -3,7 +3,7 @@
 .container {
 	display: flex;
 }
-.cover {
+/* .cover {
 	align-items: center;
 	background-position: 50% 50%;
 	background-size: cover;
@@ -14,7 +14,7 @@
 	justify-content: center;
 	position: relative;
 }
-/* the code to keep the logo center of the background image */
+/* the code to keep the logo center of the background image 
 .lgo {
 	position: absolute;
 	top: 100px;
@@ -22,14 +22,13 @@
 	object-fit: cover;
 	height: 50%;
 	width: 35%;
-}
+/* } */
 
 .btn {
-	position: absolute;
+	position: absolute !important;
 	height: 50%;
-	top: 60%;
+	top: 400% !important;
 	justify-content: center;
-	margin-top: 50px;
 	width: 50%;
 }
 /* Extra small devices (phones, 600px and down) */
@@ -47,23 +46,13 @@
 	}
 /* } */
 
-/* Nest Hub Max */
-@media screen and (max-width: 1280px) {
-	.lgo {
-		height: 100% !important;
-		width: 100% !important;
-		top: -200px;
-		align-self: center !important;
-		align-content: center !important;
-		object-fit: scale-down !important;
-	}
-}
-
 @media screen and (max-width: 1280px) {
 	.btn {
-		position: relative !important;
-		top: -400px;
+		position: absolute !important;
+		top: 100% !important;
 		width: 20% !important;
+		left: 40%;
+
 		align-self: center !important;
 		align-content: center !important;
 		object-fit: scale-down !important;
