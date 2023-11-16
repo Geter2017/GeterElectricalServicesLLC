@@ -18,13 +18,16 @@ button {
 }
 
 .app {
-	width: 400px;
+	width: 50%;
 	margin: 0 auto;
 	height: 100vh;
 }
 
 /* Contact.js */
 .form {
+	position: absolute;
+	top: 1490%;
+	left: 37%;
 	height: 100vh;
 	display: flex;
 	flex-direction: column;
@@ -56,7 +59,7 @@ textarea:focus {
 
 .form > textarea {
 	height: 150px;
-	max-width: 400px;
+	max-width: 100%;
 	min-height: 100px;
 }
 

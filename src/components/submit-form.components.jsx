@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./submit-form.styles.css";
-import { db } from "../utils/firebase.utils.js";
+import { db } from "../firebase";
 
 const Contact = () => {
 	const [fullname, setFullName] = useState("");
@@ -53,53 +53,60 @@ const Contact = () => {
 
 	return (
 		<form className="form" onSubmit={handleSubmit}>
-			<h1>Contact Us 🤳</h1>
+			<h1>Schedule Appointment</h1>
 
-			<label>FullName(required)</label>
+			<label className="fullname">Full Name(required)</label>
 			<input
-				placeholder="FullName"
+				className="fullname"
+				placeholder="Full Name"
 				value={fullname}
 				onChange={(e) => setFullName(e.target.value)}
 			/>
 
-			<label>Email(required)</label>
+			<label className="email">Email(required)</label>
 			<input
+				className="email"
 				placeholder="Email"
 				value={email}
 				onChange={(e) => setEmail(e.target.value)}
 			/>
 
-			<label>PhoneNumber(required)</label>
+			<label className="phonenumber">Phone Number(required)</label>
 			<input
-				placeholder="PhoneNumber"
+				className="phonenumber"
+				placeholder="Phone Number"
 				value={phonenumber}
 				onChange={(e) => setPhoneNumber(e.target.value)}
 			/>
 
-			<label>Date & Time(required)</label>
+			<label className="date">Date & Time(required)</label>
 			<input
-				placeholder="DateTime"
+				className="date"
+				placeholder="Date Time"
 				value={datetime}
 				onChange={(e) => setDateTime(e.target.value)}
 			/>
 
-			<label>City(required)</label>
+			<label className="city">City(required)</label>
 			<input
+				className="city"
 				placeholder="City"
 				value={city}
 				onChange={(e) => setCity(e.target.value)}
 			/>
 
-			<label>State(required)</label>
+			<label className="state">State(required)</label>
 			<input
+				className="state"
 				placeholder="State"
 				value={state}
 				onChange={(e) => setState(e.target.value)}
 			/>
 
-			<label>ZipCode(required)</label>
+			<label className="zip">ZipCode(required)</label>
 			<input
-				placeholder="ZipCode"
+				className="zip"
+				placeholder="Zip Code"
 				value={zipcode}
 				onChange={(e) => setZipCode(e.target.value)}
 			/>
