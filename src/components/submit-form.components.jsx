@@ -68,9 +68,8 @@ const Contact = () => {
 				value={email}
 				onChange={(e) => setEmail(e.target.value)}
 			/>
-			<label className="phonenumber">Phone Number(required)</label>
+			<label>Phone Number(required)</label>
 			<input
-				className="phonenumber"
 				placeholder="Phone Number"
 				value={phonenumber}
 				onChange={(e) => setPhoneNumber(e.target.value)}

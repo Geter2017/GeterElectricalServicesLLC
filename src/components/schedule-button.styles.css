@@ -26,7 +26,7 @@
 
 .btn {
 	position: absolute !important;
-	right: 42%;
+	right: 41%;
 	height: 50%;
 	top: 100% !important;
 	justify-content: center;
@@ -52,7 +52,7 @@
 		position: absolute !important;
 		top: 80% !important;
 		width: 20% !important;
-		left: 40%;
+		left: 40% !important;
 		align-self: center !important;
 		align-content: center !important;
 		object-fit: scale-down !important;
@@ -107,7 +107,7 @@
 }
 
 /* Samsung A51/71 & samsung ultra  */
-@media screen and (min-width: 401px) and (max-width: 414px) {
+/* @media screen and (min-width: 401px) and (max-width: 414px) { 
 	.lgo {
 		top: 50px !important;
 		height: 50% !important;
@@ -116,20 +116,7 @@
 		align-content: center !important;
 		object-fit: scale-down !important;
 	}
-}
-
-@media screen and (min-width: 411px) and (max-width: 412px) {
-	.btn {
-		position: relative !important;
-		margin-top: 100px;
-		width: 150px !important;
-		height: 25% !important;
-		font-size: medium !important;
-		align-self: center !important;
-		align-content: center !important;
-		object-fit: scale-down !important;
-	}
-}
+/* } */
 
 /* Surfacce duo */
 @media screen and (max-width: 550px) {
@@ -179,14 +166,14 @@
 	}
 }
 
-@media screen and (min-width: 280px) and (max-width: 285px) {
+@media screen and (min-width: 279px) and (max-width: 281px) {
 	.btn {
-		position: relative;
+		position: absolute;
 		width: 150px !important;
 		height: 100% !important;
-		position: relative !important;
 		font-size: small !important;
-		top: -150px !important;
+		top: -2350px !important;
+		left: 20%;
 		align-self: center !important;
 		align-content: center !important;
 	}
@@ -354,7 +341,7 @@
 	}
 }
 
-@media screen and (min-width: 413px) and (max-width: 414px) {
+/* @media screen and (min-width: 413px) and (max-width: 414px) { 
 	.btn {
 		position: relative;
 		width: 150px !important;
@@ -365,7 +352,7 @@
 		align-self: center !important;
 		align-content: center !important;
 	}
-}
+/* } */
 
 @media screen and (min-width: 370px) and (max-width: 375px) {
 	.lgo {
@@ -388,5 +375,33 @@
 		font-size: small !important;
 		align-self: center !important;
 		align-content: center !important;
+	}
+}
+
+@media screen and (min-width: 411px) and (max-width: 412px) {
+	.btn {
+		position: absolute !important;
+		top: 20% !important;
+		left: 29%;
+		width: 150px !important;
+		height: 2% !important;
+		font-size: medium !important;
+		align-self: center !important;
+		align-content: center !important;
+		object-fit: scale-down !important;
+	}
+}
+
+@media screen and (min-width: 538px) and (max-width: 540px) {
+	.btn {
+		position: absolute !important;
+		width: 30% !important;
+		height: 5% !important;
+		font-size: small !important;
+		top: 35% !important;
+		right: 33% !important;
+		align-self: center !important;
+		align-content: center !important;
+		object-fit: scale-down !important;
 	}
 }

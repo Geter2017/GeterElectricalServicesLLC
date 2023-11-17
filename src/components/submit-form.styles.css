@@ -89,21 +89,21 @@ textarea:focus {
 @media screen and (min-width: 1279px) and (max-width: 1280px) {
 	.form {
 		position: absolute;
-		top: 1160%;
-		left: 37%;
-		height: 20%;
+		top: 1100%;
+		left: 22%;
+		height: 100%;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 	}
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1023px) and (max-width: 1024px) {
 	.form {
 		position: absolute;
-		top: 1230%;
-		left: 35%;
-		height: 20%;
+		top: 1180%;
+		left: 22%;
+		height: 100%;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -114,7 +114,7 @@ textarea:focus {
 	.form {
 		position: absolute;
 		top: 315%;
-		left: 25%;
+		left: 27%;
 		height: 30%;
 		max-width: 50%;
 		display: flex;
@@ -135,5 +135,86 @@ textarea:focus {
 		cursor: pointer;
 		transition: 0.2s ease-in-out;
 		margin-top: 10px;
+	}
+}
+
+@media screen and (max-width: 280px) {
+	.form > button {
+		padding: 10px;
+		border: none;
+		background-color: rgb(2, 2, 110);
+		font-weight: 500;
+		font-size: 20px;
+		border-radius: 3px;
+		color: #fff;
+		cursor: pointer;
+		transition: 0.2s ease-in-out;
+		margin-top: 10px;
+	}
+}
+
+@media screen and (min-width: 275px) and (max-width: 283px) {
+	.form > input,
+	textarea {
+		padding: 5px !important;
+		border-radius: 10px;
+		/* box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.137); */
+		margin-bottom: 2px;
+		border: 1px solid lightgray;
+		/* border: none; */
+		background: #fff;
+		font-size: 12px;
+		color: rgb(0, 0, 32);
+		outline: none;
+	}
+}
+
+@media screen and (min-width: 275px) and (max-width: 283px) {
+	.form > label {
+		padding-bottom: 10px;
+		color: rgb(0, 0, 32);
+		font-weight: bold;
+		font-size: 13px;
+	}
+}
+
+@media screen and (min-width: 275px) and (max-width: 283px) {
+	.form {
+		position: absolute;
+		top: 300%;
+		left: 21%;
+		height: 30%;
+		max-width: 200% !important;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+}
+
+@media screen and (min-width: 275px) and (max-width: 283px) {
+	.form > button {
+		padding: 2px;
+		border: none;
+		background-color: rgb(2, 2, 110);
+		font-weight: 500;
+		font-size: 15px;
+		border-radius: 3px;
+		color: #fff;
+		cursor: pointer;
+		transition: 0.2s ease-in-out;
+		margin-top: 10px;
+	}
+}
+
+@media screen and (min-width: 538px) and (max-width: 540px) {
+	.form {
+		position: absolute;
+		top: 540%;
+		left: 21%;
+		height: 30%;
+		max-width: 200% !important;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
 	}
 }

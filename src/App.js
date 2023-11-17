@@ -8,6 +8,7 @@ function App() {
 			<Invite />
 			<ScheduleButton />
 			<Contact />
+			
 		</div>
 	);
 }
