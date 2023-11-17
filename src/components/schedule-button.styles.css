@@ -424,7 +424,7 @@
 	.btn {
 		position: absolute !important;
 		top: 35% !important;
-		left: 41%;
+		left: 42%;
 		width: 150px !important;
 		height: 4% !important;
 		font-size: large !important;
@@ -481,6 +481,48 @@
 		position: absolute !important;
 		top: 100px !important;
 		left: 30%;
+		width: 150px !important;
+		height: 4% !important;
+		font-size: large !important;
+		align-self: center !important;
+		align-content: center !important;
+		object-fit: scale-down !important;
+	}
+}
+
+@media screen and (min-width: 390px) and (max-width: 390px) {
+	.btn {
+		position: absolute !important;
+		top: 80px !important;
+		left: 28%;
+		width: 150px !important;
+		height: 4% !important;
+		font-size: large !important;
+		align-self: center !important;
+		align-content: center !important;
+		object-fit: scale-down !important;
+	}
+}
+
+@media screen and (min-width: 414px) and (max-width: 414px) {
+	.btn {
+		position: absolute !important;
+		top: 190px !important;
+		left: 29%;
+		width: 150px !important;
+		height: 4% !important;
+		font-size: large !important;
+		align-self: center !important;
+		align-content: center !important;
+		object-fit: scale-down !important;
+	}
+}
+
+@media screen and (min-width: 374px) and (max-width: 376px) {
+	.btn {
+		position: absolute !important;
+		top: 70px !important;
+		left: 28%;
 		width: 150px !important;
 		height: 4% !important;
 		font-size: large !important;
