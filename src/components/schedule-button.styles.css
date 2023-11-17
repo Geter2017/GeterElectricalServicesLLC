@@ -26,8 +26,9 @@
 
 .btn {
 	position: absolute !important;
+	right: 42%;
 	height: 50%;
-	top: 400% !important;
+	top: 100% !important;
 	justify-content: center;
 	width: 50%;
 }
@@ -46,7 +47,7 @@
 	}
 /* } */
 
-@media screen and (max-width: 1280px) {
+@media screen and (min-width: 1279px) and (max-width: 1280px) {
 	.btn {
 		position: absolute !important;
 		top: 80% !important;
@@ -69,10 +70,11 @@
 	}
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1023px) and (max-width: 1024px) {
 	.btn {
-		position: relative !important;
-		top: -300px;
+		position: absolute !important;
+		top: 75% !important;
+		left: 40%;
 		width: 20% !important;
 		align-self: center !important;
 		align-content: center !important;

@@ -3,7 +3,7 @@
 * {
 	margin: 0;
 	padding: 0;
-	box-sizing: border-box;
+	box-sizing: inherit;
 }
 
 body {
@@ -26,9 +26,8 @@ button {
 /* Contact.js */
 .form {
 	position: absolute;
-	top: 1490%;
-	left: 37%;
-	height: 100vh;
+	top: 1450%;
+	left: 38%;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -40,7 +39,7 @@ button {
 
 .form > input,
 textarea {
-	padding: 20px;
+	padding: 5px;
 	border-radius: 3px;
 	/* box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.137); */
 	margin-bottom: 20px;
@@ -60,7 +59,7 @@ textarea:focus {
 .form > textarea {
 	height: 100%;
 	max-width: 100%;
-	min-height: 80%;
+	min-height: 20%;
 }
 
 .form > label {
@@ -86,12 +85,37 @@ textarea:focus {
 	background-color: rgb(0, 0, 196);
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (min-width: 1279px) and (max-width: 1280px) {
 	.form {
 		position: absolute;
 		top: 1160%;
 		left: 37%;
+		height: 20%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.form {
+		position: absolute;
+		top: 1230%;
+		left: 35%;
+		height: 20%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+}
+
+@media screen and (max-width: 412px) {
+	.form {
+		position: absolute;
+		top: 300%;
+		left: 35%;
 		height: 30%;
+		max-width: 50%;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
