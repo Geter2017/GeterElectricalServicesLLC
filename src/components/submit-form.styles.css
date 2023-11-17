@@ -18,7 +18,7 @@ button {
 }
 
 .app {
-	width: 50%;
+	width: 100%;
 	margin: 0 auto;
 	height: 100vh;
 }
@@ -26,8 +26,9 @@ button {
 /* Contact.js */
 .form {
 	position: absolute;
-	top: 1450%;
-	left: 38%;
+	top: 1470%;
+	width: 60%;
+	left: 23%;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -112,12 +113,27 @@ textarea:focus {
 @media screen and (max-width: 412px) {
 	.form {
 		position: absolute;
-		top: 300%;
-		left: 35%;
+		top: 315%;
+		left: 25%;
 		height: 30%;
 		max-width: 50%;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
+	}
+}
+
+@media screen and (max-width: 412px) {
+	.form > button {
+		padding: 10px;
+		border: none;
+		background-color: rgb(2, 2, 110);
+		font-weight: 500;
+		font-size: 20px;
+		border-radius: 3px;
+		color: #fff;
+		cursor: pointer;
+		transition: 0.2s ease-in-out;
+		margin-top: 10px;
 	}
 }
