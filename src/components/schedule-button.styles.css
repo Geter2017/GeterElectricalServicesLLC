@@ -405,3 +405,87 @@
 		object-fit: scale-down !important;
 	}
 }
+
+@media screen and (min-width: 911px) and (max-width: 912px) {
+	.btn {
+		position: absolute !important;
+		top: 30% !important;
+		left: 41%;
+		width: 150px !important;
+		height: 4% !important;
+		font-size: large !important;
+		align-self: center !important;
+		align-content: center !important;
+		object-fit: scale-down !important;
+	}
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1024px) {
+	.btn {
+		position: absolute !important;
+		top: 35% !important;
+		left: 41%;
+		width: 150px !important;
+		height: 4% !important;
+		font-size: large !important;
+		align-self: center !important;
+		align-content: center !important;
+		object-fit: scale-down !important;
+	}
+}
+
+@media screen and (min-width: 820px) and (max-width: 820px) {
+	.btn {
+		position: absolute !important;
+		top: 31% !important;
+		left: 39%;
+		width: 150px !important;
+		height: 4% !important;
+		font-size: large !important;
+		align-self: center !important;
+		align-content: center !important;
+		object-fit: scale-down !important;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 768px) {
+	.btn {
+		position: absolute !important;
+		top: 35% !important;
+		left: 39%;
+		width: 150px !important;
+		height: 4% !important;
+		font-size: large !important;
+		align-self: center !important;
+		align-content: center !important;
+		object-fit: scale-down !important;
+	}
+}
+
+@media screen and (min-width: 360px) and (max-width: 360px) {
+	.btn {
+		position: absolute !important;
+		top: 8% !important;
+		left: 27%;
+		width: 150px !important;
+		height: 4% !important;
+		font-size: large !important;
+		align-self: center !important;
+		align-content: center !important;
+		object-fit: scale-down !important;
+	}
+}
+
+@media screen and (min-width: 430px) and (max-width: 430px) {
+	.btn {
+		position: absolute !important;
+		top: 100px !important;
+		left: 30%;
+		width: 150px !important;
+		height: 4% !important;
+		font-size: large !important;
+		align-self: center !important;
+		align-content: center !important;
+		object-fit: scale-down !important;
+	}
+}
