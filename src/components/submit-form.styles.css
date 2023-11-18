@@ -109,11 +109,11 @@ textarea:focus {
 		justify-content: center;
 	}
 }
-
-@media screen and (max-width: 412px) {
-	.form {
+/* 
+/* @media all and (min-width: 413px) and (max-width: 413px) { */
+/* .form { 
 		position: absolute;
-		top: 315%;
+		top: 300% !important;
 		left: 27%;
 		height: 30%;
 		max-width: 50%;
@@ -121,9 +121,9 @@ textarea:focus {
 		flex-direction: column;
 		justify-content: center;
 	}
-}
+} */
 
-@media screen and (max-width: 412px) {
+@media all and (max-width: 412px) {
 	.form > button {
 		padding: 10px;
 		border: none;
@@ -494,5 +494,63 @@ textarea:focus {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
+	}
+}
+
+@media screen and (min-width: 280px) and (max-width: 280px) {
+	.form {
+		position: absolute;
+		top: 1930px !important;
+		left: 21%;
+		height: 40%;
+		max-width: 200% !important;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+}
+
+@media screen and (min-width: 280px) and (max-width: 280px) {
+	.form > input,
+	textarea {
+		padding: 3px !important;
+		border-radius: 10px;
+		/* box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.137); */
+		margin-bottom: 1px;
+		border: 1px solid lightgray;
+		/* border: none; */
+		background: #fff;
+		font-size: 11px;
+		color: rgb(0, 0, 32);
+		outline: none;
+	}
+}
+
+@media all and (min-width: 412px) and (max-width: 412px) {
+	.form {
+		position: absolute;
+		top: 310% !important;
+		left: 21%;
+		height: 40%;
+		max-width: 200% !important;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+}
+
+@media all and (min-width: 412px) and (max-width: 412px) {
+	.form > input,
+	textarea {
+		padding: 10px !important;
+		border-radius: 10px;
+		/* box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.137); */
+		margin-bottom: 1px;
+		border: 1px solid lightgray;
+		/* border: none; */
+		background: #fff;
+		font-size: 11px;
+		color: rgb(0, 0, 32);
+		outline: none;
 	}
 }
