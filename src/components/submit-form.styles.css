@@ -596,3 +596,32 @@ textarea:focus {
 		justify-content: center;
 	}
 }
+
+@media screen and (max-width: 2320px) {
+	.form {
+		position: absolute !important;
+		top: 1780% !important;
+		left: 27%;
+		height: 100%;
+		max-width: 50% !important;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+}
+
+@media screen and (max-width: 2320px) {
+	.form > input,
+	textarea {
+		padding: 30px !important;
+		border-radius: 10px;
+		/* box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.137); */
+		margin-bottom: 30px;
+		border: 1px solid lightgray;
+		/* border: none; */
+		background: #fff;
+		font-size: 20px;
+		color: rgb(0, 0, 32);
+		outline: none;
+	}
+}
