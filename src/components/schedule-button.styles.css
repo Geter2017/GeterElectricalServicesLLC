@@ -561,7 +561,7 @@
 	}
 }
 
-@media screen and (max-width: 910px) {
+@media screen and (min-width: 890px) and (max-width: 910px) {
 	.btn {
 		position: absolute !important;
 		top: 17% !important;
@@ -575,7 +575,7 @@
 	}
 }
 
-@media screen and (max-width: 2320px) {
+@media screen and (min-width: 2300) and (max-width: 2320px) {
 	.btn {
 		position: absolute !important;
 		top: 125% !important;

@@ -584,7 +584,7 @@ textarea:focus {
 	}
 }
 
-@media screen and (max-width: 910px) {
+@media screen and (min-width: 890px) and (max-width: 910px) {
 	.form {
 		position: absolute !important;
 		top: 270% !important;
@@ -597,7 +597,7 @@ textarea:focus {
 	}
 }
 
-@media screen and (max-width: 2320px) {
+@media screen and (min-width: 2300) and (max-width: 2320px) {
 	.form {
 		position: absolute !important;
 		top: 1780% !important;
@@ -610,7 +610,7 @@ textarea:focus {
 	}
 }
 
-@media screen and (max-width: 2320px) {
+@media screen and (min-width: 2300) and (max-width: 2320px) {
 	.form > input,
 	textarea {
 		padding: 30px !important;
