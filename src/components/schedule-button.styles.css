@@ -560,3 +560,17 @@
 		object-fit: scale-down !important;
 	}
 }
+
+@media screen and (max-width: 910px) {
+	.btn {
+		position: absolute !important;
+		top: 17% !important;
+		left: 42%;
+		width: 130px !important;
+		height: 2% !important;
+		font-size: small !important;
+		align-self: center !important;
+		align-content: center !important;
+		object-fit: scale-down !important;
+	}
+}
