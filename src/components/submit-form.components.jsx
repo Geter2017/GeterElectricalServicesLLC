@@ -1,16 +1,11 @@
 import React, { useState } from "react";
 import "./submit-form.styles.css";
-import { db } from "../firebase";
+import { db } from "../utils/firebase/firebase.utils";
 
 const Contact = () => {
 	const [fullname, setFullName] = useState("");
 	const [email, setEmail] = useState("");
 	const [phonenumber, setPhoneNumber] = useState("");
-	const [datetime, setDateTime] = useState("");
-	const [streetaddress, setStreetAddress] = useState("");
-	const [city, setCity] = useState("");
-	const [state, setState] = useState("");
-	const [zipcode, setZipCode] = useState("");
 	const [message, setMessage] = useState("");
 
 	const [loader, setLoader] = useState(false);
@@ -24,11 +19,6 @@ const Contact = () => {
 				fullname: fullname,
 				email: email,
 				phonenumber: phonenumber,
-				datetime: datetime,
-				streetaddress: streetaddress,
-				city: city,
-				state: state,
-				zipcode: zipcode,
 				message: message,
 			})
 			.then(() => {
@@ -43,11 +33,6 @@ const Contact = () => {
 		setFullName("");
 		setEmail("");
 		setPhoneNumber("");
-		setDateTime("");
-		setStreetAddress("");
-		setCity("");
-		setState("");
-		setZipCode("");
 		setMessage("");
 	};
 
