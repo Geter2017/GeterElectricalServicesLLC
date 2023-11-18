@@ -483,3 +483,16 @@ textarea:focus {
 		justify-content: center;
 	}
 }
+
+@media screen and (min-width: 1300px) and (max-width: 1400px) {
+	.form {
+		position: absolute;
+		top: 4000px !important;
+		left: 21%;
+		height: 40%;
+		max-width: 200% !important;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+}

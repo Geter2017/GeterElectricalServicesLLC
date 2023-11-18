@@ -31,6 +31,7 @@
 	top: 100% !important;
 	justify-content: center;
 	width: 50%;
+	cursor: pointer;
 }
 /* Extra small devices (phones, 600px and down) */
 /* @media screen and (max-width: 1900px) {
@@ -523,6 +524,20 @@
 		position: absolute !important;
 		top: 70px !important;
 		left: 28%;
+		width: 150px !important;
+		height: 4% !important;
+		font-size: large !important;
+		align-self: center !important;
+		align-content: center !important;
+		object-fit: scale-down !important;
+	}
+}
+
+@media screen and(min-width:1300px) and (max-width: 1368px) {
+	.btn {
+		position: absolute !important;
+		top: 250px !important;
+		left: 35%;
 		width: 150px !important;
 		height: 4% !important;
 		font-size: large !important;
