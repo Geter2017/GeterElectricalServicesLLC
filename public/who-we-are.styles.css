@@ -6,6 +6,10 @@
 	width: 100%;
 }
 
+.cover {
+	width: 100%;
+	position: relative;
+}
 .complete-web .overlap-group-wrapper {
 	/* height: 10878px; */
 	overflow-x: hidden;
