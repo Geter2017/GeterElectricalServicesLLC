@@ -1,6 +1,7 @@
 /* controls the size and length of the gray background image */
+/* removed special charcter */
 
-/ .the-container {
+.the-container {
 	display: flex;
 	flex-direction: row;
 }
