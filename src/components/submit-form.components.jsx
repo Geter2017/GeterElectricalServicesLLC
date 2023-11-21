@@ -1,35 +1,41 @@
 import React, { useState } from "react";
 import "./submit-form.styles.css";
-// import { db } from "../utils/firebase/firebase.utils";
 
 const Contact = () => {
 	const [fullname, setFullName] = useState("");
 	const [email, setEmail] = useState("");
 	const [phonenumber, setPhoneNumber] = useState("");
 	const [message, setMessage] = useState("");
-
 	const [loader, setLoader] = useState(false);
 
-	const handleSubmit = (e) => {
+	const handleSubmit = async (e) => {
 		e.preventDefault();
 		setLoader(true);
 
-		// db.collection
-		"contacts"
-			.add({
-				fullname: fullname,
-				email: email,
-				phonenumber: phonenumber,
-				message: message,
-			})
-			.then(() => {
+		try {
+			// Your form submission logic can be handled by Netlify automatically
+			const response = await fetch("/", {
+				method: "POST",
+				headers: { "Content-Type": "application/x-www-form-urlencoded" },
+				body: new URLSearchParams({
+					"form-name": "Geter-contact", // Specify the form name
+					fullname,
+					email,
+					phonenumber,
+					message,
+				}).toString(),
+			});
+
+			if (response.ok) {
 				setLoader(false);
 				alert("Your message has been submitted👍");
-			})
-			.catch((error) => {
-				alert(error.message);
-				setLoader(false);
-			});
+			} else {
+				throw new Error("Form submission failed");
+			}
+		} catch (error) {
+			alert(error.message);
+			setLoader(false);
+		}
 
 		setFullName("");
 		setEmail("");
@@ -38,24 +44,35 @@ const Contact = () => {
 	};
 
 	return (
-		<form name="contact" className="form" onSubmit={handleSubmit} netlify>
-			<input type="hidden" name="form-name" value="contact" />
-			{/* <h1>Schedule Appointment</h1> */}
-			<label className="name">Full Name(required)</label>
+		<form
+			name="contact"
+			className="form"
+			onSubmit={handleSubmit}
+			data-netlify="true"
+			netlify-honeypot="bot-field" // Add this line for honeypot spam prevention
+		>
+			{/* Add the honeypot input field */}
+			<p style={{ display: "none" }}>
+				<label>
+					Don’t fill this out if you're human: <input name="bot-field" />
+				</label>
+			</p>
+
+			<label className="name">Full Name (required)</label>
 			<input
 				className="fullname"
 				placeholder="Full Name"
 				value={fullname}
 				onChange={(e) => setFullName(e.target.value)}
 			/>
-			<label className="email">Email(required)</label>
+			<label className="email">Email (required)</label>
 			<input
 				className="email"
 				placeholder="Email"
 				value={email}
 				onChange={(e) => setEmail(e.target.value)}
 			/>
-			<label>Phone Number(required)</label>
+			<label>Phone Number (required)</label>
 			<input
 				placeholder="Phone Number"
 				value={phonenumber}
