@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./submit-form.styles.css";
-import { db } from "../utils/firebase/firebase.utils";
+// import { db } from "../utils/firebase/firebase.utils";
 
 const Contact = () => {
 	const [fullname, setFullName] = useState("");
@@ -14,7 +14,8 @@ const Contact = () => {
 		e.preventDefault();
 		setLoader(true);
 
-		db.collection("contacts")
+		// db.collection
+		"contacts"
 			.add({
 				fullname: fullname,
 				email: email,

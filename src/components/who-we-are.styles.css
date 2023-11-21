@@ -7,20 +7,20 @@
 }
 
 .complete-web .overlap-group-wrapper {
-	height: 10878px;
+	/* height: 10878px; */
 	overflow-x: hidden;
 	width: 1275px;
 }
 
 .complete-web .overlap-group {
-	height: 10878px;
+	/* height: 10878px; */
 	left: -4px;
 	position: relative;
 	width: 1283px;
 }
 
 .complete-web .body {
-	height: 10878px;
+	/* height: 10878px; */
 	left: 4px;
 	position: absolute;
 	top: 0;
@@ -28,7 +28,7 @@
 }
 
 .complete-web .line {
-	height: 13px;
+	/* height: 13px; */
 	left: 0;
 	position: absolute;
 	top: 821px;
