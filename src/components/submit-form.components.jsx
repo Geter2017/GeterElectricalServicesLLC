@@ -38,9 +38,10 @@ const Contact = () => {
 	};
 
 	return (
-		<form className="form" onSubmit={handleSubmit} netlify>
+		<form name="contact" className="form" onSubmit={handleSubmit} netlify>
 			{/* <h1>Schedule Appointment</h1> */}
 			<label className="name">Full Name(required)</label>
+			<input type="hidden" name="form-name" value="contact" />
 			<input
 				className="fullname"
 				placeholder="Full Name"
@@ -60,32 +61,6 @@ const Contact = () => {
 				value={phonenumber}
 				onChange={(e) => setPhoneNumber(e.target.value)}
 			/>
-			{/* <label className="date">Date & Time(required)</label> */}
-			{/* <input */}
-			{/* className="date" */}
-			{/* placeholder="Date Time" */}
-			{/* value={datetime} */}
-			{/* onChange={(e) => setDateTime(e.target.value)} */}
-			{/* /> */}
-			{/* <label className="city">City(required)</label> */}
-			{/* <input */}
-			{/* className="city" placeholder="City" value={city} */}
-			{/* onChange={(e) => setCity(e.target.value)} */}
-			{/* /> */}
-			{/* <label className="state">State(required)</label> */}
-			{/* <input */}
-			{/* className="state" */}
-			{/* placeholder="State" */}
-			{/* value={state} */}
-			{/* onChange={(e) => setState(e.target.value)} */}
-			{/* /> */}
-			{/* <label className="zip">ZipCode(required)</label> */}
-			{/* <input */}
-			{/* className="zip" */}
-			{/* placeholder="Zip Code" */}
-			{/* value={zipcode} */}
-			{/* onChange={(e) => setZipCode(e.target.value)} */}
-			{/* /> */}
 			<label>Message</label>
 			<textarea
 				placeholder="Message"
