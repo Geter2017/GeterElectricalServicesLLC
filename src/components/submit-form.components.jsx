@@ -38,7 +38,7 @@ const Contact = () => {
 	};
 
 	return (
-		<form name="contact" className="form" onSubmit={handleSubmit} netlify>
+		<form name="Geter-contact" className="form" onSubmit={handleSubmit} netlify>
 			{/* <h1>Schedule Appointment</h1> */}
 			<label className="name">Full Name(required)</label>
 			<input type="hidden" name="form-name" value="contact" />
